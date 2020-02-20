@@ -1,4 +1,4 @@
-FROM rust:1.37
+FROM rust:1.39
 MAINTAINER Tyler Hall <tylerwhall@gmail.com>
 
 RUN apt-get update && \
