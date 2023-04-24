@@ -1,4 +1,4 @@
-FROM rust:1.64
+FROM rust:1.66
 MAINTAINER Tyler Hall <tylerwhall@gmail.com>
 
 RUN rustup component add clippy rustfmt
